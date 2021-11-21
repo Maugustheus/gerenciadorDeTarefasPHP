@@ -1,0 +1,144 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+body{
+  background-color: #D7DBDD;
+}
+
+/*tarefas-container*/
+.tarefas-container{
+  min-height: 50vh;
+  width: 30vw;
+
+  margin: 5% auto;
+  padding: 0.6em;
+
+  background-color: #F2F3F4;
+  border-radius: 0.3em;
+}
+
+h1{
+  margin: 1em 0;
+
+  text-align: center;
+}
+
+label{
+  font-size: 18px;
+}
+
+input{
+  height: 30px;
+  width: 100%;
+
+  margin-top: 0.4em;
+
+  display: block;
+  border-radius: 0.4em;
+  font-size: 18px;
+}
+
+input[type=text]{
+  border: 2px solid #979A9A;
+  padding-left: 0.6em;
+}
+
+input[type=submit]{
+  border: none;
+  background-color: #27AE60;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+input[type=submit]:hover{
+  background-color: #229954;
+}
+
+.mensagem-erro{
+  margin: 0.4em 0;
+
+  text-align: center;
+  color: #CD6155;
+}
+
+/*separador*/
+.separador{
+  width: 80%;
+  height: 2px;
+
+  margin: 1em auto;
+
+  background-color: #909497;
+}
+
+/*lista-de-tarefas*/
+li{
+  width: 100%;
+  height: 2em;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 0.2em;
+  border-radius: 0.3em;
+  padding-left: 0.6em;
+  cursor: default;
+
+  background-color: #85C1E9;
+  list-style: none;
+}
+
+button[name=botao-limpar]{
+  height: 30px;
+  width: 100%;
+
+  margin: 0.4em 0;
+
+  display: block;
+  border-radius: 0.4em;
+  border: none;
+  font-size: 18px;
+  background-color: #CD6155;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button[name=botao-limpar]:hover{
+  background-color: #C0392B
+}
+
+li .botao-eliminar{
+  height: 70%;
+  width: 20%;
+
+  margin-right: 0.4em;
+
+  border: none;
+  border-radius: 0.3em;
+  background-color: #CD6155;
+  transition: background-color 0.3s;
+  cursor: pointer;
+}
+
+.botao-eliminar:hover{
+  background-color: #C0392B
+}
+
+/*footer*/
+footer{
+  height: 2em;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1em 0;
+
+  background-color: #979A9A;
+  border-radius: 0.3em;
+  text-align: center;
+  color: #D0D3D4;
+}
