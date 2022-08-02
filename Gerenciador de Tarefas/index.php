@@ -76,7 +76,7 @@ if(isset($_GET['key']))
                     window.confirm('Deseja remover essa tarefa?');
                     if(window.confirm)
                     {
-                      window.location = 'http://localhost/phpProjetos/Tarefas/index.php?key=$key';
+                      window.location = 'http://localhost/Gerenciador de Tarefas/index.php?key=$key';
                     }
                     return false;
                   }
